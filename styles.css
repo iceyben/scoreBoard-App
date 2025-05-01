@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+.scoreboard{
+    @apply text-center w-auto p-10 h-full sm:grid grid-cols-2 overflow-x-hidden
+}
+
+.h1{
+    @apply text-3xl text-white font-bold mt-4 sm:text-5xl sm:mt-6 lg:text-4xl lg:mt-6 xl:text-7xl xl:mt-8
+}
+
+.h2{
+    @apply  bg-black text-orange-600   text-9xl m-auto h-40 w-60 my-5 rounded-lg text-center sm:text-[11em] sm:h-70 sm:w-70 sm:pt-8 pb-2 sm:mb-[55px] lg:text-[180px] lg:h-103 lg:w-110 lg:pt-[50px] xl:w-130
+}
+
+.points{
+    @apply border-gray-200 border-2 p-2 text-gray-200 rounded-lg hover:border-orange-600  sm:border-4 sm:p-6 sm:text-2xl lg:text-3xl xl:text-4xl
+}
+
